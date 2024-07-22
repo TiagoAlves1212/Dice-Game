@@ -1,0 +1,47 @@
+body {
+    background: linear-gradient(to right, #5C33F6, #A239EA, #FF94CC, #F0D9E7);
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    margin: 20px;
+    font-size: 7rem;
+    color: #fff;
+    animation: opacity 3s ease;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.dice {
+    display: inline-block;
+    margin: 50px;
+}
+
+p {
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+    margin: 100px;
+    animation: opacity 3s ease;
+    margin-top: 5px;
+    color: #0f044c;
+}
+
+img {
+    width: 300px;
+    animation: opacity 3s ease;
+}
+
+
+@keyframes opacity {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+    
+}
